@@ -2,7 +2,7 @@ import cv2
 #Load the cascade
 smile_cascade = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_smile.xml') 
 #Load the image
-img=cv2.imread(r'filename.jpg')
+img=cv2.imread('vk.jpg')
 # Detecting smile
 smiles=smile_cascade.detectMultiScale(img,1.8,20)
 #creating Rectangle
